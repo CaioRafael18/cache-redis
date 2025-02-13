@@ -1,8 +1,8 @@
-## Projeto de Cache com PostgreSQL e Redis
+# Projeto de Cache com PostgreSQL e Redis
 
 Este projeto é uma aplicação construída com Flask que utiliza PostgreSQL como banco de dados e Redis como cache para otimizar o tempo de resposta.
 
-### Arquivos Principais:
+## Arquivos Principais:
 - **app.py**: Arquivo principal da aplicação.
 - **database.py**: Configuração das conexões com PostgreSQL e Redis.
 - **inserir-dados.py**: Script para inserir dados no banco a partir de um arquivo CSV.
@@ -13,7 +13,7 @@ Este projeto é uma aplicação construída com Flask que utiliza PostgreSQL com
 
 O Dockerfile define a imagem da aplicação, e o docker-compose.yml gerencia os serviços do PostgreSQL, Redis e da aplicação.
 
-### Passo a Passo:
+## Passo a Passo:
 1. Clone o repositório.
 2. Navegue até o diretório do projeto.
 3. Execute o comando abaixo para iniciar os serviços:
